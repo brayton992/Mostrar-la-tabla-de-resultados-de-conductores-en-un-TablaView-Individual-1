@@ -62,19 +62,6 @@ Actualización de Datos: El método updateTable se llama con el año seleccionad
 - Java
 - JavaFX
 
-## How to Run
-
-
-3. Navigate to the project directory:
-    ```bash
-    cd driver-stats-app
-    ```
-4. Compile and run the application:
-    ```bash
-    javac -d bin src/application/Main.java
-    java -cp bin application.Main
-    ```
-
 ## Code Explanation
 
 ### Main.java
