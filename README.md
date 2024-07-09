@@ -27,16 +27,32 @@ printTableData(): Imprime en la consola los datos de todos los años.
 Datos de Ejemplo
 Los datos de ejemplo están definidos en un HashMap<String, ObservableList<Driver>>, donde la clave es el año y el valor es una lista observable de objetos Driver. Cada Driver tiene nombre, equipo, victorias, puntos y clasificación.
 
-# Driver Stats Application
-
-This is a JavaFX application that displays driver statistics for the years 2016 to 2020. The interface allows users to select a year from a ComboBox and view the statistics in a TableView. There is also a button to print all data to the console.
-
-## Features
-
-- View driver statistics by year.
-- Table view displays driver name, team, wins, total points, and rank.
-- Print all driver data to the console.
-
+ComboBox
+Propósito: El ComboBox permite al usuario seleccionar un año específico para ver los datos correspondientes.
+Inicialización: Se crea una instancia de ComboBox y se llena con las opciones de años disponibles (por ejemplo, 2016, 2017, 2018, 2019, 2020).
+Valor Predeterminado: Se establece un año predeterminado (por ejemplo, 2016) para que la tabla se inicialice con datos de ese año al inicio.
+Evento de Selección: Se agrega un listener al ComboBox para que, cuando el usuario seleccione un año diferente, la tabla se actualice con los datos correspondientes a ese año.
+TableView
+Propósito: La TableView muestra las estadísticas de los pilotos de carreras, como el nombre del piloto, el equipo, las victorias, los puntos totales y el rango.
+Estructura: La tabla se compone de varias columnas, cada una representando una propiedad del objeto Driver (piloto).
+Columnas:
+Driver Name: Muestra el nombre del piloto.
+Team: Muestra el equipo del piloto.
+Wins: Muestra el número de victorias del piloto.
+Total Points: Muestra los puntos totales del piloto.
+Rank: Muestra el rango del piloto.
+Configuración de Columnas: Cada columna se configura para mostrar una propiedad específica del objeto Driver usando PropertyValueFactory.
+Datos de Ejemplo: Se inicializan datos de ejemplo para diferentes años. Estos datos se almacenan en un Map, donde la clave es el año y el valor es una lista observable de objetos Driver.
+Actualización de la Tabla: Cuando el usuario selecciona un año en el ComboBox, se actualizan los datos mostrados en la tabla para reflejar los datos correspondientes a ese año.
+Interacción entre ComboBox y TableView
+Selección de Año: El usuario selecciona un año en el ComboBox.
+Evento de Cambio: El listener del ComboBox detecta el cambio de selección.
+Actualización de Datos: El método updateTable se llama con el año seleccionado, actualizando los elementos de la TableView con los datos correspondientes a ese año.
+Flujo General de la Aplicación
+Inicio de la Aplicación: La aplicación se inicia y se crea la ventana principal (Stage).
+Configuración Inicial: Se configuran el ComboBox y la TableView.
+Mostrar la Ventana: La escena se establece en el Stage y se muestra la ventana.
+Interacción del Usuario: El usuario interactúa con el ComboBox para seleccionar un año, lo que actualiza la TableView con los datos correspondientes.
 ## Technologies Used
 
 - Java
