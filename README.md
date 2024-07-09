@@ -1,9 +1,8 @@
 Mostrar la tabla de resultados de conductores en un TablaView
 
-#capturas
+#capturas del trabajo 
 
-
-![Captura de pantalla 2024-07-09 171351](https://github.com/Ivanmurillojr30/tabla-de-resultados-de-conductores/assets/168851753/dd0dd86d-a938-4e47-86c6-cc1a479816b6)
+![Imagen de WhatsApp 2024-07-07 a las 15 21 13_f1fe8c40](https://github.com/brayton992/Mostrar-la-tabla-de-resultados-de-conductores-en-un-TablaView-Individual-1/assets/142423609/be5df11c-d270-4034-93ec-de382a5a96d4)
 
 
 ![Captura de pantalla 2024-07-09 135110](https://github.com/Ivanmurillojr30/tabla-de-resultados-de-conductores/assets/168851753/7fab6ce9-8aab-4ab9-b3c4-b4ba39069270)
