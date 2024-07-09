@@ -8,7 +8,8 @@ Mostrar la tabla de resultados de conductores en un TablaView
 ![Captura de pantalla 2024-07-09 135110](https://github.com/Ivanmurillojr30/tabla-de-resultados-de-conductores/assets/168851753/7fab6ce9-8aab-4ab9-b3c4-b4ba39069270)
 
 
-![image](https://github.com/brayton992/Mostrar-la-tabla-de-resultados-de-conductores-en-un-TablaView-Individual-1/assets/142423609/00d94c8a-c13f-434a-a8be-04c3b761a0ee)
+![image](https://github.com/brayton992/Mostrar-la-tabla-de-resultados-de-conductores-en-un-TablaView-Individual-1/assets/142423609/090f12d2-8c78-4c6d-a146-1174444e2d5a)
+
 
 
 # explicacion 
