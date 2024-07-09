@@ -1,6 +1,6 @@
 Mostrar la tabla de resultados de conductores en un TablaView
 
-#CAPTURA DE LA TAREA
+# CAPTURA DE LA TAREA
 
 ![Imagen de WhatsApp 2024-07-07 a las 15 21 13_f1fe8c40](https://github.com/brayton992/Mostrar-la-tabla-de-resultados-de-conductores-en-un-TablaView-Individual-1/assets/142423609/be5df11c-d270-4034-93ec-de382a5a96d4)
 
@@ -27,12 +27,12 @@ printTableData(): Imprime en la consola los datos de todos los años.
 Datos de Ejemplo
 Los datos de ejemplo están definidos en un HashMap<String, ObservableList<Driver>>, donde la clave es el año y el valor es una lista observable de objetos Driver. Cada Driver tiene nombre, equipo, victorias, puntos y clasificación.
 
-#ComboBox
+# ComboBox
 Propósito: El ComboBox permite al usuario seleccionar un año específico para ver los datos correspondientes.
 Inicialización: Se crea una instancia de ComboBox y se llena con las opciones de años disponibles (por ejemplo, 2016, 2017, 2018, 2019, 2020).
 Valor Predeterminado: Se establece un año predeterminado (por ejemplo, 2016) para que la tabla se inicialice con datos de ese año al inicio.
 Evento de Selección: Se agrega un listener al ComboBox para que, cuando el usuario seleccione un año diferente, la tabla se actualice con los datos correspondientes a ese año.
-#TableView
+# TableView
 Propósito: La TableView muestra las estadísticas de los pilotos de carreras, como el nombre del piloto, el equipo, las victorias, los puntos totales y el rango.
 Estructura: La tabla se compone de varias columnas, cada una representando una propiedad del objeto Driver (piloto).
 Columnas:
