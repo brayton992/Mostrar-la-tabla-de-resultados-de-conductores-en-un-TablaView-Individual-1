@@ -12,9 +12,9 @@ Mostrar la tabla de resultados de conductores en un TablaView
 
 
 
-# explicacion 
+# Explicacion Del tarea
 
-Este programa es una aplicación JavaFX que muestra estadísticas de pilotos de carreras para los años 2016 a 2020. La interfaz gráfica permite seleccionar el año desde un ComboBox y ver las estadísticas de los pilotos en una tabla. Además, hay un botón que imprime los datos de todos los años en la consola.
+Es una aplicación JavaFX que muestra estadísticas de pilotos de carreras para los años 2016 a 2020. La interfaz gráfica permite seleccionar el año desde un ComboBox y ver las estadísticas de los pilotos en una tabla. Además, hay un botón que imprime los datos de todos los años en la consola.
 
 Componentes Principales
 ComboBox: Permite seleccionar el año para ver las estadísticas correspondientes.
