@@ -1,6 +1,6 @@
 Mostrar la tabla de resultados de conductores en un TablaView
 
-#capturas del trabajo 
+#CAPTURA DE LA TAREA
 
 ![Imagen de WhatsApp 2024-07-07 a las 15 21 13_f1fe8c40](https://github.com/brayton992/Mostrar-la-tabla-de-resultados-de-conductores-en-un-TablaView-Individual-1/assets/142423609/be5df11c-d270-4034-93ec-de382a5a96d4)
 
