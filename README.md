@@ -60,8 +60,6 @@ This is a JavaFX application that displays driver statistics for the years 2016 
 ### Main.java
 
 ```java
-package application;
-
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
